@@ -32,13 +32,7 @@ void loop() {
         digitalWrite(ledPin,LOW);
         
          if(flag == 0){
-          Serial.println("Welcome, you are connected with your Kid!\n");
-          
-          
-          //digitalWrite(ledpin,HIGH);
-          //delay(500);
-          //digitalWrite(ledpin,LOW);
-          //delay(500);
+          Serial.println("Welcome, you are connected with your Kid!\n")
           flag = 1;
         }
     }
@@ -53,8 +47,7 @@ void loop() {
     else if(state == '1') {
 
       delay(15000);
-       //digitalWrite(ledPin,LOW);
-        
+      
         digitalWrite(ledPin,HIGH);
       }        
         if(flag == 0){
